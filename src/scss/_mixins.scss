@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+
+
+$brown: #A37774;
+$green: #839788;
+$champange: #EEE0CB;
+$rubrik: 'Playfair Display', serif;
+$text: 'Lato', sans-serif;
+
+@mixin underline{
+    width:250px;
+    height: 2px;
+    background-color: $brown;
+    margin:auto;    
+    margin-bottom: 40px;
+}
