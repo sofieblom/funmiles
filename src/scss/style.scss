@@ -74,6 +74,9 @@ body{
             }
         }
     }
+    .tours-container{
+        @include tours-content;
+    }
 }
 
 @media screen and(min-width: 1024px) {

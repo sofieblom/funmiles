@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
 body {
@@ -116,6 +117,104 @@ body .wrapper .about-container .symbol-container {
 
 body .wrapper .about-container .symbol-container img {
   height: 150px;
+}
+
+body .tours-container article .image-first {
+  background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
+  background-position: center;
+  height: 450px;
+}
+
+body .tours-container article .image-second {
+  background-image: url(/assets/pexels-cliford-mervil-239822.jpg);
+  background-position: center;
+  height: 450px;
+}
+
+body .tours-container article .image-third {
+  background-image: url(/assets/pexels-nina-uhlíková-725.jpg);
+  background-position: center;
+  height: 450px;
+}
+
+body .tours-container article .image-fourth {
+  background-image: url(/assets/pexels-flo-maderebner-238.jpg);
+  background-position: center;
+  height: 450px;
+}
+
+body .tours-container article .text-tour {
+  height: 300px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+body .tours-container article .text-tour h3 {
+  font-size: 19pt;
+  margin: 10px;
+}
+
+body .tours-container article .text-tour p {
+  margin: 0px 10px;
+}
+
+body .tours-container article .text-tour .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+body .tours-container article .text-tour .button-container .info-button {
+  width: 80px;
+  height: 30px;
+  border: 2px solid #839788;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+
+body .tours-container article .text-tour .button-container .info-button:hover {
+  background-color: #839788;
+  cursor: pointer;
+}
+
+body .tours-container article .text-tour .button-container .booking {
+  width: 80px;
+  height: 30px;
+  border: 2px solid #839788;
+  background-color: #839788;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+
+body .tours-container article .text-tour .button-container .booking:hover {
+  background-color: #FFFFFF;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
