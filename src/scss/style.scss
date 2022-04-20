@@ -1,0 +1,25 @@
+@import "mixins";
+
+body{
+    width: 100%;
+    margin: 0px;
+    header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/assets/pexels-creative-vix-9754.jpg);
+        nav{
+            display: flex;
+            .logotype{
+                width: 100%;
+                padding: 10px;
+                img{
+                    width:200px;
+                }
+            }
+            .hamburgermenu{
+                width:100%;
+                padding:10px;
+            }
+        }
+    }
+}
