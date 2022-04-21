@@ -1,0 +1,98 @@
+@import "mixins";
+
+@mixin tours-content{
+    article{
+        .image-first{
+            background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
+            background-position: center;
+            height: 400px;
+            width: 100%;
+        }
+        .image-second{
+            background-image: url(/assets/pexels-cliford-mervil-239822.jpg);
+            background-position: center;
+            height: 400px;
+            width: 100%;
+        }
+        .image-third{
+            background-image: url(/assets/pexels-nina-uhlíková-725.jpg);
+            background-position: center;
+            height: 400px;
+            width: 100%;
+        } 
+        .image-fourth{
+            background-image: url(/assets/pexels-flo-maderebner-238.jpg);
+            background-position: center;
+            height: 400px;
+            width: 100%;
+        }
+
+        .text-tour{
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            h3{
+                font-size: 19pt;
+                margin: 20px;
+            }
+            p{
+                margin: 0px 20px;
+
+            }
+            .button-container{
+                display: flex;
+                gap: 10px;
+                width: 100%;
+                margin: 20px;
+                margin-top: 20px;
+                .info-button{
+                    width:100px;
+                    height: 30px;
+                    border: 2px solid $green;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 3px;
+                    transition: background-color .3s ease-in-out;
+                }
+                .info-button:hover{
+                    background-color: $green;
+                    cursor: pointer;
+                }
+                .booking{
+                    width:100px;
+                    height: 30px;
+                    border: 2px solid $green;
+                    background-color: $green;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 3px;
+                    transition: background-color .3s ease-in-out;
+                }
+                .booking:hover{
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+ @media screen and(min-width: 1024px) {
+
+        article{
+            display: flex;
+            flex-direction: row;
+            .image-first{
+                background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
+                background-position: center;
+                height: 400px;
+            }
+        }
+        .even{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+}
