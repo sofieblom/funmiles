@@ -122,25 +122,29 @@ body .wrapper .about-container .symbol-container img {
 body .tours-container article .image-first {
   background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
   background-position: center;
-  height: 450px;
+  height: 400px;
+  width: 100%;
 }
 
 body .tours-container article .image-second {
   background-image: url(/assets/pexels-cliford-mervil-239822.jpg);
   background-position: center;
-  height: 450px;
+  height: 400px;
+  width: 100%;
 }
 
 body .tours-container article .image-third {
   background-image: url(/assets/pexels-nina-uhlíková-725.jpg);
   background-position: center;
-  height: 450px;
+  height: 400px;
+  width: 100%;
 }
 
 body .tours-container article .image-fourth {
   background-image: url(/assets/pexels-flo-maderebner-238.jpg);
   background-position: center;
-  height: 450px;
+  height: 400px;
+  width: 100%;
 }
 
 body .tours-container article .text-tour {
@@ -153,16 +157,16 @@ body .tours-container article .text-tour {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 body .tours-container article .text-tour h3 {
   font-size: 19pt;
-  margin: 10px;
+  margin: 20px;
 }
 
 body .tours-container article .text-tour p {
-  margin: 0px 10px;
+  margin: 0px 20px;
 }
 
 body .tours-container article .text-tour .button-container {
@@ -170,12 +174,13 @@ body .tours-container article .text-tour .button-container {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  margin: 10px;
+  width: 100%;
+  margin: 20px;
   margin-top: 20px;
 }
 
 body .tours-container article .text-tour .button-container .info-button {
-  width: 80px;
+  width: 100px;
   height: 30px;
   border: 2px solid #839788;
   display: -webkit-box;
@@ -196,7 +201,7 @@ body .tours-container article .text-tour .button-container .info-button:hover {
 }
 
 body .tours-container article .text-tour .button-container .booking {
-  width: 80px;
+  width: 100px;
   height: 30px;
   border: 2px solid #839788;
   background-color: #839788;
@@ -215,6 +220,32 @@ body .tours-container article .text-tour .button-container .booking {
 body .tours-container article .text-tour .button-container .booking:hover {
   background-color: #FFFFFF;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  body .tours-container article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .tours-container article .image-first {
+    background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
+    background-position: center;
+    height: 400px;
+  }
+  body .tours-container .even {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 
 @media screen and (min-width: 1024px) {
