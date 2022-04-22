@@ -3,7 +3,7 @@
 @mixin tours-content{
     article{
         .image-first{
-            background-image: url(../../assets/pexels-marco-milanesi-5899.jpg);
+            background-image: url(../../assets/pexels-marco.jpg);
             background-position: center;
             height: 400px;
             width: 100%;
@@ -15,7 +15,7 @@
             width: 100%;
         }
         .image-third{
-            background-image: url(../../assets/pexels-nina-uhlíková-725.jpg);
+            background-image: url(../../assets/pexels-nina.jpg);
             background-position: center;
             height: 400px;
             width: 100%;
@@ -86,11 +86,6 @@
         article{
             display: flex;
             flex-direction: row;
-            .image-first{
-                background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
-                background-position: center;
-                height: 400px;
-            }
         }
         .even{
             display: flex;
