@@ -36,6 +36,7 @@
             h3{
                 font-size: 19pt;
                 margin: 20px;
+                color: $brown;
             }
             p{
                 margin: 0px 20px;
@@ -80,7 +81,7 @@
             }
         }
     }
- @media screen and(min-width: 1024px) {
+ @media screen and(min-width: 640px) {
 
         article{
             display: flex;

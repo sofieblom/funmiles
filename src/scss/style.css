@@ -57,6 +57,7 @@ body .wrapper {
       -ms-flex-align: center;
           align-items: center;
   background-color: #FFFFFF;
+  width: 100%;
 }
 
 body .wrapper h2 {
@@ -73,7 +74,7 @@ body .wrapper .underline {
   height: 2px;
   background-color: #A37774;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 body .wrapper .about-container {
@@ -110,7 +111,6 @@ body .wrapper .about-container .info-text h4 {
 
 body .wrapper .about-container .info-text p {
   font-size: 12pt;
-  font-style: italic;
   margin: 0px;
 }
 
@@ -173,6 +173,7 @@ body .wrapper .tours-container article .text-tour {
 body .wrapper .tours-container article .text-tour h3 {
   font-size: 19pt;
   margin: 20px;
+  color: #A37774;
 }
 
 body .wrapper .tours-container article .text-tour p {
@@ -237,7 +238,7 @@ body .wrapper .tours-container article .text-tour .button-container .booking:hov
   cursor: pointer;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 640px) {
   body .wrapper .tours-container article {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -371,10 +372,10 @@ body .wrapper footer .contact-container .media-container img {
   width: 30px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 640px) {
   body .wrapper {
     margin: auto;
-    width: 940px;
+    width: 80%;
     margin-bottom: 50px;
   }
   body .wrapper .about-container {
@@ -404,6 +405,12 @@ body .wrapper footer .contact-container .media-container img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 940px;
   }
 }
 /*# sourceMappingURL=style.css.map */
