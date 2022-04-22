@@ -158,28 +158,28 @@ body .wrapper .tours-container {
 }
 
 body .wrapper .tours-container article .image-first {
-  background-image: url(/assets/pexels-marco-milanesi-5899.jpg);
+  background-image: url(../../assets/pexels-marco-milanesi-5899.jpg);
   background-position: center;
   height: 400px;
   width: 100%;
 }
 
 body .wrapper .tours-container article .image-second {
-  background-image: url(/assets/pexels-cliford-mervil-239822.jpg);
+  background-image: url(../../assets/pexels-cliford-mervil-239822.jpg);
   background-position: center;
   height: 400px;
   width: 100%;
 }
 
 body .wrapper .tours-container article .image-third {
-  background-image: url(/assets/pexels-nina-uhlíková-725.jpg);
+  background-image: url(../../assets/pexels-nina-uhlíková-725.jpg);
   background-position: center;
   height: 400px;
   width: 100%;
 }
 
 body .wrapper .tours-container article .image-fourth {
-  background-image: url(/assets/pexels-flo-maderebner-238.jpg);
+  background-image: url(../../assets/pexels-flo-maderebner-238.jpg);
   background-position: center;
   height: 400px;
   width: 100%;
