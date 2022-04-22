@@ -281,15 +281,6 @@ body .wrapper .tours-container article .text-tour .button-container .booking:hov
     background-position: center;
     height: 400px;
   }
-  body .wrapper .tours-container .even {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
 }
 
 body .wrapper .shop-container {
