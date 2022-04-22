@@ -293,3 +293,12 @@ body{
    }
    
 }
+
+@media screen and(min-width: 1440px) {
+    body{
+         .wrapper{
+         width: 1240px;
+     }
+    }
+    
+ }

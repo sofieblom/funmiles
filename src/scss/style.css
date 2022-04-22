@@ -575,4 +575,10 @@ body .wrapper footer .contact-container .media-container img {
     width: 940px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  body .wrapper {
+    width: 1240px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
